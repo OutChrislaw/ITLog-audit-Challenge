@@ -17,8 +17,8 @@ This project is a modern, responsive web application designed for IT log auditin
 
 - Angoy, Chritian B.
 - Hinayon, Sarah Mae P.
-- Lood, Jenny Monica
-- Carmona, Rommel
+- Lood, Jenny Monica M.
+- Carmona, Rommel P.
 
 ## Short Reflection
 
