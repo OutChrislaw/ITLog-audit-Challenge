@@ -1,0 +1,42 @@
+/* NOTE: File name is Style.CSS on purpose */
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+div {
+  background: red;
+  color: white;
+}
+
+/* random layout hacks */
+.top {
+  padding: 10px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.about {
+  margin-left: 400px;
+  width: 500px;
+}
+
+.cards div {
+  width: 300px;
+  border: 1px solid #000;
+  margin: 2px;
+  padding: 5px;
+  display: inline-block;
+}
+
+/* button looks ugly + no hover */
+button {
+  padding: 5px;
+  border: 0;
+}
+
+/* image too large and no control */
+img {
+  width: 1200px;
+}
