@@ -1,38 +1,51 @@
-<html>
+﻿<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>My Final Project</title>
-    <link rel="stylesheet" href="Style.CSS" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Future Tech - Welcome</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <div class="top">WELCOME TO OUR WEBSITE</div>
-
-    <div>
+    <header class="site-header">
       <h1>Future Tech</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="login.html">Login</a>
+      </nav>
+    </header>
 
-      <button>Get Started</button>
-    </div>
+    <main>
+      <section class="hero">
+        <img src="assets/hero-image.jpg" alt="Futuristic technology and innovation" />
+        <h2>Welcome to Our Website</h2>
+        <a href="login.html" class="btn">Get Started</a>
+      </section>
 
-    <footer>Copyright 2026</footer>
+      <section class="about">
+        <h2>About Us</h2>
+        <p>We build amazing things for the future.</p>
+      </section>
 
-    <div class="about">
-      <p>We build amazing things for the future.</p>
+      <section class="features">
+        <h2>Why Choose Us</h2>
+        <div class="feature-cards">
+          <div class="feature-card">
+            <h3>Fast</h3>
+          </div>
+          <div class="feature-card">
+            <h3>Secure</h3>
+          </div>
+          <div class="feature-card">
+            <h3>Modern</h3>
+          </div>
+        </div>
+      </section>
+    </main>
 
-      <h3>About Us</h3>
-    </div>
-
-    <div>Features coming soon</div>
-
-    <a href="/LOGIN Page.html">Login</a>
-
-    <img src="HeroImage.JPG" />
-
-    <div class="cards">
-      <div>Fast</div>
-
-      <div>Secure</div>
-
-      <div>Modern</div>
-    </div>
+    <footer class="site-footer">
+      <p>Copyright 2026</p>
+    </footer>
   </body>
 </html>
